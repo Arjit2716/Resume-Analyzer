@@ -31,13 +31,22 @@ A modern web application for AI-powered resume analysis using FastAPI, featuring
    pip install -r requirements.txt
    ```
 
-3. **Set up API keys**
+3. **Set up environment variables**
 
-   Create a `.env` file or set environment variables:
+   Copy the example environment file and fill in your API keys:
    ```bash
-   export GROQ_API_KEY="your-groq-api-key"
-   export ANTHROPIC_API_KEY="your-anthropic-api-key"
+   cp .env.example .env
    ```
+
+   Edit `.env` and add your API keys:
+   ```bash
+   GROQ_API_KEY=your_actual_groq_api_key
+   ANTHROPIC_API_KEY=your_actual_anthropic_api_key
+   ```
+
+   **Get API Keys:**
+   - **Groq**: Sign up at [groq.com](https://groq.com) and get your API key
+   - **Anthropic**: Sign up at [anthropic.com](https://anthropic.com) and get your API key
 
 ## Running the Application
 

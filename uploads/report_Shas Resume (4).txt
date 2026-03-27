@@ -1,0 +1,135 @@
+============================================================
+        RESUME ANALYZER — FULL REPORT
+        Generated: 2026-03-27 19:03:21
+============================================================
+
+📋 JD MATCH ANALYSIS
+------------------------------------------------------------
+**Match Score: 85**
+
+**Matched Skills/Keywords:**
+- Java
+- JavaScript
+- Python
+- SQL
+- Node.js
+- Express.js
+- React.js
+- Redux
+- AWS
+- Git
+- GitHub
+- RESTful API Design
+- MongoDB
+- Selenium
+- Agile methodologies
+- CI/CD
+
+**Missing Skills/Keywords:**
+- Docker
+- Kubernetes
+- CloudFormation
+- Specific experience with AWS services beyond EC2 and S3
+- Formal training or certifications in cloud architecture
+
+**Overall fit summary:** 
+The candidate demonstrates a strong foundation in software development, with a good balance of technical skills and experience in AI workflow automation, full stack development, and test automation. However, to fully align with the job description, the candidate could benefit from additional experience in containerization, orchestration, and more advanced cloud services. Overall, the candidate's versatile skill set and experience make them a promising fit for a software developer role.
+
+🛠️  EXTRACTED SKILLS
+------------------------------------------------------------
+Here is the list of extracted skills, categorized and formatted for clarity:
+
+**1. Technical Skills**
+* Programming languages: Java, JavaScript (ES6+), Python, SQL, C#
+* Automation & Testing: Selenium WebDriver, Maven, Page Object Model (POM), API Testing (Postman, RestAssured), JMeter, Functional Testing, Regression Testing
+* Web Technologies: Node.js, Express.js, React.js, Redux, Tailwind CSS, WebSockets
+* AI & Automation: n8n Workflow Automation, LLM Integration (Gemini, OpenAI), Prompt Engineering
+* Cloud & Tools: AWS (EC2, S3), Git, GitHub, RESTful API Design, MongoDB, Mongoose
+* Core CS: Object-Oriented Programming (OOP), DBMS, Operating Systems, Computer Networks
+
+**2. Soft Skills**
+* None explicitly mentioned, but can be inferred:
+	+ Problem-solving (through project experiences)
+	+ Communication (through GitHub, LinkedIn, and project collaborations)
+	+ Teamwork (through Agile methodologies and CI/CD frameworks)
+	+ Time management (through optimized workflows and automated processes)
+	+ Adaptability (through experience with various technologies and frameworks)
+
+**3. Domain Knowledge**
+* AI Workflow Automation
+* Full Stack Development
+* Selenium-based Test Automation
+* REST APIs
+* Microservices
+* Event-driven systems
+* CI/CD integrated automation frameworks
+* SDLC
+* Agile methodologies
+* Backend architecture optimization
+* Business analytics
+* Medical diagnostics (through Gemini AI)
+
+**4. Certifications / Courses**
+* AWS Cloud Practitioner Essentials – Amazon Web Services
+* Java Programming (Data Structures & Algorithms) – NIELIT
+* SQL (Advanced) – HackerRank
+* CCNA & Python Essentials – Cisco Networking Academy
+* Bachelor of Technology in Computer Science and Engineering
+* Diploma in Electrical Engineering
+
+⭐ RESUME SCORE
+------------------------------------------------------------
+**Evaluation Scores:**
+
+1. **Content Quality (0-25): 22** - The resume has a good structure, and the content is well-organized, but some sections could be more concise. The use of action verbs and specific metrics (e.g., "reducing manual effort by 90%") is commendable.
+2. **Skill Relevance (0-25): 24** - The technical skills listed are highly relevant to the current industry, including AI, full-stack development, and cloud computing. The mention of specific tools and technologies (e.g., n8n, Selenium, Node.js) is also a plus.
+3. **Experience Clarity (0-25): 23** - The experience section is well-structured, and the job responsibilities are clearly described. However, some project descriptions could be more detailed, and the timeline for the current job is not clearly specified.
+4. **ATS Friendliness (0-25): 24** - The resume is well-formatted, and the use of keywords and phrases (e.g., "AI Workflow Automation," "Full Stack Development") will help it pass through applicant tracking systems (ATS).
+
+**Total Score: 93**
+
+**One-line Verdict:** This is a strong resume with excellent technical skills, clear experience, and good content quality, making it highly likely to pass through ATS and catch the attention of hiring managers.
+
+💡 IMPROVEMENT SUGGESTIONS
+------------------------------------------------------------
+As a professional resume coach, I've analyzed the provided resume excerpts and identified areas for improvement. Here are my suggestions:
+
+**Content Improvements (Action Verbs, Quantified Achievements)**
+
+1. Use more varied and dynamic action verbs, such as "Designed," "Developed," "Implemented," "Optimized," and "Streamlined."
+2. Quantify achievements by including specific metrics, such as "Reduced manual effort by 90%," "Increased suggestion relevance by 35%," and "Achieved 92% accuracy in preliminary screenings."
+3. Emphasize transferable skills, like "Collaborated with cross-functional teams," "Mentored junior engineers," or "Trained stakeholders on new technologies."
+
+**Structure/Formatting Tips**
+
+1. Use a clear and concise format, with bullet points and white space to enhance readability.
+2. Consider a two-column or hybrid layout to showcase both technical skills and work experience.
+3. Use bolding or italicizing to draw attention to key sections, such as "TECHNICAL SKILLS" or "CERTIFICATIONS."
+4. Use a standard font (e.g., Arial, Calibri, or Helvetica) and font size (10-12 points) throughout the resume.
+
+**Missing Sections (If Any)**
+
+1. Consider adding a "RELEVANT TOOLS & SOFTWARE" section to list specific tools, such as IDEs, version control systems, or project management software.
+2. Add a "VOLUNTEER WORK" or "EXTRA-CURRICULAR ACTIVITIES" section to showcase any relevant non-work activities, such as open-source contributions, hackathons, or community involvement.
+
+**ATS Optimization Tips**
+
+1. Use keywords from the job description in the resume, especially in the "TECHNICAL SKILLS" section.
+2. Include relevant certifications, such as AWS or Java certifications, to demonstrate expertise.
+3. Use a standard format for work experience, with company name, job title, and dates of employment.
+
+**Top 3 Priority Fixes**
+
+1. **Quantify achievements**: Include specific metrics to demonstrate the impact of your work, such as "Reduced API latency by 40% through optimization" or "Increased patient record management capacity by 500%."
+2. **Standardize formatting**: Use a consistent format throughout the resume, including font, font size, and bullet points.
+3. **Emphasize transferable skills**: Highlight skills that can be applied across different roles or industries, such as teamwork, problem-solving, or communication.
+
+Additional suggestions:
+
+* Consider adding a "SUMMARY" or "OBJECTIVE" statement to provide an overview of your experience and career goals.
+* Use action verbs to describe achievements, rather than just listing technologies or tools.
+* Proofread the resume multiple times to ensure there are no typos or formatting errors.
+
+============================================================
+END OF REPORT
+============================================================

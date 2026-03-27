@@ -1,0 +1,11 @@
+anthropic
+sentence-transformers
+faiss-cpu
+pdfplumber
+numpy
+groq
+fastapi
+uvicorn[standard]
+jinja2
+python-multipart
+python-dotenv

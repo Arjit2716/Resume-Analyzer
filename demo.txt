@@ -1,0 +1,41 @@
+## Sample `resume_report.txt` Output
+```
+============================================================
+        RESUME ANALYZER — FULL REPORT
+        Generated: 2026-03-26 14:32:10
+============================================================
+
+📋 JD MATCH ANALYSIS
+------------------------------------------------------------
+Match Score: 74/100
+Matched: Python, REST API, SQL, Machine Learning
+Missing: AWS, GCP, NoSQL
+...
+
+🛠️  EXTRACTED SKILLS
+------------------------------------------------------------
+Technical: Python, C++, FastAPI, MySQL, TensorFlow
+Soft Skills: Leadership, Communication
+...
+
+⭐ RESUME SCORE
+------------------------------------------------------------
+Total: 77/100 — Good resume, minor fixes needed.
+...
+
+💡 IMPROVEMENT SUGGESTIONS
+------------------------------------------------------------
+1. Add quantified achievements (e.g. "reduced latency by 30%")
+2. Include a LinkedIn/GitHub link
+...
+
+⚔️  MULTI-RESUME COMPARISON
+------------------------------------------------------------
+Resume 1 Score: 74/100
+Resume 2 Score: 81/100
+Final Verdict: Resume 2 is a better fit due to cloud experience.
+...
+
+============================================================
+END OF REPORT
+============================================================

@@ -1,0 +1,187 @@
+============================================================
+        RESUME ANALYZER — FULL REPORT
+        Generated: 2026-03-26 14:20:59
+============================================================
+
+📋 JD MATCH ANALYSIS
+------------------------------------------------------------
+Here's the comparison between the resume and job description:
+
+1. **Match Score: 85**
+2. **Matched Skills/Keywords:**
+	* Python
+	* Machine Learning (Scikit-learn, TensorFlow, PyTorch)
+	* Deep Learning
+	* REST APIs (FastAPI, Flask)
+	* SQL databases
+	* Cloud platforms (mentioned experience with Docker, Kubernetes, and GitHub Actions, although not explicitly AWS/GCP)
+	* Strong communication and teamwork skills (demonstrated through team projects and hackathons)
+3. **Missing Skills/Keywords:**
+	* Explicit experience with AWS/GCP cloud platforms
+	* NoSQL databases (although MongoDB is mentioned in one of the projects)
+4. **Overall fit summary:**
+The candidate has a strong background in Python, Machine Learning, and Deep Learning, with experience in building REST APIs and working with SQL databases. While they have some experience with cloud platforms, it's not explicitly mentioned that they have worked with AWS/GCP. Overall, they seem to be a good fit for the role, with some minor gaps in skills that can be addressed through training or experience.
+
+🛠️  EXTRACTED SKILLS
+------------------------------------------------------------
+**1. Technical Skills:**
+- C++
+- Python
+- GoLang
+- JavaScript
+- TypeScript
+- C#
+- Java
+- SQL
+- Scikit-learn
+- Seaborn
+- OpenCV
+- LangChain
+- TensorFlow
+- PyTorch
+- Docker
+- Kubernetes
+- GitHub Actions
+- Django
+- FastAPI
+- Flask
+- Node.js
+- Express
+- React
+- React.js
+- Tailwind CSS
+- MongoDB
+- Socket.io
+- JWT
+- Cloudinary
+- ExifTool
+- SQLite
+- HTML
+- CSS
+- Jupyter Notebook
+- Pandas
+- Matplotlib
+
+**2. Soft Skills:**
+- Problem-solving ability
+- Technical innovation
+- Teamwork
+
+**3. Domain Knowledge:**
+- Full-stack development
+- Backend systems
+- AI/ML-based applications
+- Real-time web platforms
+- Intelligent data-driven solutions
+- Dental health assessment
+- Real-time messaging applications
+- File metadata management
+- Web development
+- Cloud computing
+- DevOps
+
+**4. Certifications / Courses:**
+- None explicitly mentioned in the provided resume excerpts.
+
+⭐ RESUME SCORE
+------------------------------------------------------------
+Individual scores:
+1. Content Quality: 22/25 (The resume has a good profile summary, and the projects are well-described with relevant technical details. However, there is some repetition in the projects and research experience sections.)
+2. Skill Relevance: 24/25 (The skills listed are highly relevant to the field of software development, and the candidate has demonstrated expertise in a wide range of technologies.)
+3. Experience Clarity: 20/25 (The experience section is mostly clear, but some projects could be more concisely described, and the research experience section feels a bit redundant.)
+4. ATS Friendliness: 23/25 (The resume is well-structured and easy to parse, with a clear format and relevant keywords. However, some sections could be more concise to improve ATS compatibility.)
+
+Total score: 89/100
+
+One-line verdict: This is a strong resume that effectively showcases the candidate's technical skills and experience, but could benefit from some minor formatting adjustments and conciseness improvements to enhance its overall impact.
+
+💡 IMPROVEMENT SUGGESTIONS
+------------------------------------------------------------
+As a professional resume coach, I'll provide specific improvement suggestions for the given resume excerpts:
+
+**Content Improvements:**
+
+1. Use more dynamic action verbs such as "Designed," "Developed," "Deployed," "Optimized," and "Improved" to describe projects and experiences.
+2. Quantify achievements by including metrics, such as "Increased performance by 30%," "Improved accuracy to 94%," or "Reduced latency by 25%."
+3. Emphasize transferable skills, such as problem-solving, teamwork, and communication, to demonstrate versatility.
+4. Use technical terms and keywords relevant to the industry, but avoid overusing buzzwords.
+
+**Structure/Formatting Tips:**
+
+1. Use a standard font, such as Arial, Calibri, or Helvetica, in size 10 or 11 points.
+2. Use bullet points to break up large blocks of text and highlight achievements.
+3. Organize sections in a logical order, such as Education, Technical Skills, Projects, and Experience.
+4. Use clear headings and subheadings to separate sections and improve readability.
+5. Remove unnecessary sections, such as the redundant description of the Talk_Sphere project.
+
+**Missing Sections:**
+
+1. Consider adding a separate section for Certifications, if applicable.
+2. Add a section for Relevant Coursework or Academic Projects, if not already included in the Education section.
+3. Include a section for Volunteer or Extracurricular Activities, if relevant to the field.
+
+**ATS Optimization Tips:**
+
+1. Use keywords from the job description in the resume, especially in the Summary, Skills, and Experience sections.
+2. Save the resume in a .docx or .pdf format, as these are more easily parsed by ATS systems.
+3. Avoid using images, tables, or charts, as these can be difficult for ATS systems to read.
+4. Use a standard font and formatting to ensure the resume is easily parsed.
+
+**Top 3 Priority Fixes:**
+
+1. **Quantify achievements**: Include specific metrics and numbers to demonstrate the impact of projects and experiences.
+2. **Reorganize sections**: Rearrange sections to prioritize Education, Technical Skills, and Projects, and remove redundant or unnecessary sections.
+3. **Use action verbs**: Replace generic verbs like "Built" and "Developed" with more dynamic action verbs like "Designed," "Deployed," and "Optimized" to describe projects and experiences.
+
+Example of improved content:
+
+* **Profile Summary**: "Aspiring Software Development Engineer with 2+ years of experience in full-stack development, backend systems, and AI/ML-based applications. Proven track record of delivering scalable and efficient solutions, with a 30% increase in performance and 94% accuracy in oral health classification."
+* **Projects**:
+	+ **AI Dental Health Assessment System**: "Designed and deployed a CNN-based dental image classification model, achieving 94% accuracy and a 25% reduction in latency. Developed using Python, TensorFlow, OpenCV, and Scikit-learn."
+	+ **Talk_Sphere**: "Developed a full-stack chat platform featuring real-time messaging, secure user authentication, and profile customization. Improved performance by 30% and ensured smooth user experience through state management and error handling."
+
+⚔️  MULTI-RESUME COMPARISON
+------------------------------------------------------------
+### 1. JD Match Score
+- **Resume 1 (Arjit Kumar):** 85/100
+  - Strong background in Machine Learning and Deep Learning, with notable projects showcasing these skills.
+  - Experience with FastAPI, which matches the job description.
+  - Proficient in SQL and NoSQL databases, and has experience with cloud platforms.
+  - However, the resume could better highlight teamwork and communication skills.
+
+- **Resume 2 (Shashank Shukla):** 80/100
+  - Strong automation and full-stack development background.
+  - Experience with REST APIs, though not explicitly mentioned as using FastAPI or Flask.
+  - Proficient in AI and workflow automation, with experience in cloud platforms.
+  - Less emphasis on Machine Learning and Deep Learning compared to the first candidate.
+
+### 2. Strengths of Resume 1
+- **Hands-on Experience in AI/ML:** Strong projects showcasing the application of Machine Learning and Deep Learning.
+- **Full-stack Development:** Experience in both front-end and back-end development, with projects demonstrating the ability to handle full-stack tasks.
+- **Technical Innovation:** Recognized for problem-solving ability and technical innovation, indicating a proactive approach to challenges.
+- **Relevant Tools and Technologies:** Good match with the job description in terms of technologies and tools used.
+
+### 3. Strengths of Resume 2
+- **Automation Expertise:** Strong background in automation, which can be beneficial for optimizing processes.
+- **Full-stack Development:** Experienced in developing scalable and efficient full-stack applications.
+- **Cloud and DevOps:** Proficient in AWS and has experience with Git, GitHub, and MongoDB, showing versatile cloud and DevOps skills.
+- **Project Management:** Experience in managing end-to-end projects, from development to deployment, indicating strong organizational skills.
+
+### 4. Weaknesses of Each
+- **Resume 1 (Arjit Kumar):**
+  - Less emphasis on automation and workflow optimization.
+  - Could improve in highlighting soft skills such as teamwork and communication.
+  
+- **Resume 2 (Shashank Shukla):**
+  - Less focused on Machine Learning and Deep Learning, which are core requirements.
+  - While experienced in automation, the direct application to the specified job requirements could be more clearly outlined.
+
+### 5. Who is a Better Fit and Why
+**Arjit Kumar** seems to be a better fit for the position. This is primarily due to his strong background in Machine Learning and Deep Learning, which are core requirements of the job. His experience with FastAPI and proficiency in both SQL and NoSQL databases also align well with the job description. While both candidates have their strengths, Arjit's skills and project experience more closely match the specified job requirements.
+
+### 6. Final Verdict
+**Resume 1 (Arjit Kumar)** is the preferred choice. His direct experience and skills in Machine Learning, Deep Learning, and relevant technologies (FastAPI, SQL/NoSQL databases) make him a more suitable candidate for the position. However, it would be beneficial to assess his teamwork and communication skills through an interview to ensure he meets all aspects of the job requirements.
+
+============================================================
+END OF REPORT
+============================================================
