@@ -172,7 +172,7 @@ async function downloadPDFReport(data) {
   doc.setFillColor("#0d0d1a"); doc.rect(2, 0, W - 2, 48, "F");
   y = 20;
   doc.setFont("courier","bold"); doc.setFontSize(7); doc.setTextColor("#4a5568");
-  doc.text("RESUMEIQ  ·  AI-POWERED RESUME INTELLIGENCE", M + 4, y); y += 10;
+  doc.text("RESUMEIX  ·  AI-POWERED RESUME INTELLIGENCE", M + 4, y); y += 10;
   doc.setFontSize(22); doc.setTextColor("#dde4f0"); doc.text("Analysis Report", M + 4, y); y += 9;
   doc.setFontSize(9); doc.setTextColor("#00ff88"); doc.text("Powered by Groq AI", M + 4, y); y += 16;
   doc.setDrawColor("#1a1a32"); doc.setLineWidth(0.4); doc.line(M + 4, y, W - M, y); y += 8;
@@ -231,7 +231,7 @@ async function downloadPDFReport(data) {
     doc.setFont("courier","normal"); doc.setFontSize(6.5); doc.setTextColor("#1a1a32");
     doc.text(`${p} / ${total}`, W - M - 6, H - 5);
   }
-  doc.save(`ResumeIQ_${data.name.replace(/\.pdf$/i, "")}.pdf`);
+  doc.save(`ResumeIX_${data.name.replace(/\.pdf$/i, "")}.pdf`);
 }
 
 // ─────────────────────────────────────────────
@@ -357,7 +357,7 @@ function Navbar({ page, onNav }) {
       <div onClick={() => onNav("home")} style={{ display: "flex", alignItems: "center", gap: 10, cursor: "pointer" }}>
         <div style={{ width: 30, height: 30, background: C.accentLow, border: `1px solid ${C.accent}`, borderRadius: 5, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 14, color: C.accent }}>▣</div>
         <div>
-          <div style={{ fontSize: 15, fontWeight: 700, color: C.accent, lineHeight: 1.1 }}>ResumeIQ</div>
+          <div style={{ fontSize: 15, fontWeight: 700, color: C.accent, lineHeight: 1.1 }}>ResumeIX</div>
           <div style={{ fontSize: 9, color: C.muted, letterSpacing: "1.5px" }}>AI ENGINE</div>
         </div>
       </div>
@@ -683,7 +683,7 @@ function ResultsPage({ data, onBack }) {
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: 12 }}>
           <div>
             <div style={{ fontSize: 11, color: C.muted, marginBottom: 4 }}>Full report ready · dark-themed PDF</div>
-            <div style={{ fontSize: 12, color: C.text }}>ResumeIQ_{name.replace(/\.pdf$/i, "")}.pdf</div>
+            <div style={{ fontSize: 12, color: C.text }}>ResumeIX_{name.replace(/\.pdf$/i, "")}.pdf</div>
             <div style={{ fontSize: 10, color: C.muted, marginTop: 3 }}>JD match · skills · score bars · suggestions</div>
           </div>
           <button className="btn-primary" onClick={async () => { setDownloading(true); try { await downloadPDFReport(data); } catch (e) { alert("PDF error: " + e.message); } setDownloading(false); }} disabled={downloading}>
@@ -1054,7 +1054,7 @@ export default function App() {
       <Navbar page={page} onNav={nav} />
       <div className="fade-in" key={page}>{pages[page]}</div>
       <footer style={{ borderTop: `1px solid ${C.border}`, padding: "18px 24px", textAlign: "center", fontSize: 10, color: C.muted, letterSpacing: "1px" }}>
-        RESUMEIQ · GROQ AI · AI-POWERED RESUME INTELLIGENCE
+        RESUMEIX · GROQ AI · AI-POWERED RESUME INTELLIGENCE
       </footer>
     </div>
   );
