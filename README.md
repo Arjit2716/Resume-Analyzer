@@ -1,124 +1,55 @@
-"# Resume Analyzer Web App
+# ResumeIX — AI-Powered Resume Analyzer
 
-A modern web application for AI-powered resume analysis using FastAPI, featuring job description matching, skill extraction, resume scoring, and comparison capabilities.
+Upload a resume PDF, paste a job description, and get instant AI-powered analysis with match scores, skill extraction, and improvement suggestions.
 
 ## Features
 
-- 📄 **Resume Upload**: Upload PDF resumes for analysis
-- 🎯 **JD Match Analysis**: Compare resumes against job descriptions
-- 🛠️ **Skill Extraction**: Automatically extract technical and soft skills
-- ⭐ **Resume Scoring**: Get comprehensive resume scores
-- 💡 **Improvement Suggestions**: Receive personalized recommendations
-- ⚔️ **Resume Comparison**: Compare two resumes side-by-side
-- 📊 **Detailed Reports**: Download comprehensive analysis reports
+- **Resume Validation** — AI checks if your upload is actually a resume before analyzing
+- **JD Match Scoring** — Semantic match score with matched & missing skills
+- **4D Score Breakdown** — Content quality, skill relevance, experience clarity, ATS friendliness (each /25)
+- **Smart Suggestions** — Prioritized fixes with concrete rewrite examples
+- **Multi Compare** — Upload 2–10 resumes and get a ranked leaderboard
+- **PDF Report** — Download a styled dark-themed analysis report
 
 ## Tech Stack
 
-- **Backend**: FastAPI (Python)
-- **AI/ML**: Groq API, Anthropic Claude, Sentence Transformers, FAISS
-- **Frontend**: HTML5, Bootstrap 5, Jinja2 templates
-- **File Processing**: PDF text extraction with pdfplumber
+| Layer | Tech |
+|-------|------|
+| Frontend | React + Vite |
+| Backend | Python / FastAPI |
+| AI | Groq API (Llama 3.3 70B) |
+| PDF | jsPDF (client) + fpdf2 (server) |
 
-## Installation
+## Quick Start
 
-1. **Clone or download the project**
-   ```bash
-   cd resume-analyzer
-   ```
-
-2. **Install dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Set up environment variables**
-
-   Copy the example environment file and fill in your API keys:
-   ```bash
-   cp .env.example .env
-   ```
-
-   Edit `.env` and add your API keys:
-   ```bash
-   GROQ_API_KEY=your_actual_groq_api_key
-   ANTHROPIC_API_KEY=your_actual_anthropic_api_key
-   ```
-
-   **Get API Keys:**
-   - **Groq**: Sign up at [groq.com](https://groq.com) and get your API key
-   - **Anthropic**: Sign up at [anthropic.com](https://anthropic.com) and get your API key
-
-## Running the Application
-
-Start the web server:
 ```bash
+# Clone
+git clone https://github.com/Arjit2716/Resume-Analyzer.git
+cd Resume-Analyzer
+
+# Backend
+python -m venv .venv && .venv\Scripts\activate
+pip install -r requirements.txt
+
+# Add your API key
+echo GROQ_API_KEY=your_key_here > .env
+
+# Run
 python app.py
 ```
 
-Or use uvicorn directly:
-```bash
-uvicorn app:app --host 0.0.0.0 --port 8001 --reload
-```
+Open **http://localhost:8001** — the React frontend is pre-built and served automatically.
 
-Open your browser and go to: http://localhost:8001
+## Deploy (Render.com)
 
-## Usage
+1. Push to GitHub
+2. Create a **Web Service** on [render.com](https://render.com)
+3. Connect your repo, set:
+   - **Build:** `pip install -r requirements.txt`
+   - **Start:** `uvicorn app:app --host 0.0.0.0 --port $PORT`
+4. Add env var: `GROQ_API_KEY`
+5. Deploy ✓
 
-### Single Resume Analysis
-1. Upload a PDF resume
-2. Paste the job description
-3. Click "Analyze Resume"
-4. View detailed analysis results
-5. Download the full report
+## Author
 
-### Resume Comparison
-1. Upload two PDF resumes
-2. Paste the job description
-3. Click "Compare Resumes"
-4. See side-by-side comparison with recommendations
-
-## API Endpoints
-
-- `GET /` - Home page
-- `POST /analyze` - Analyze single resume
-- `POST /compare` - Compare two resumes
-
-## Project Structure
-
-```
-resume-analyzer/
-├── app.py                 # FastAPI web application
-├── main.py               # Original CLI version
-├── ingest.py             # PDF processing and indexing
-├── analyze.py            # AI analysis functions
-├── compare.py            # Resume comparison logic
-├── report.py             # Report generation
-├── requirements.txt      # Python dependencies
-├── templates/            # HTML templates
-│   ├── index.html
-│   ├── results.html
-│   ├── comparison.html
-│   └── error.html
-├── uploads/              # Uploaded files and reports
-└── static/               # Static assets
-```
-
-## Security Notes
-
-- API keys are currently hardcoded in the code files
-- For production deployment, move API keys to environment variables
-- Consider implementing user authentication for production use
-- Uploaded files are stored temporarily - implement cleanup for production
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
-
-## License
-
-This project is open source. Feel free to use and modify as needed." 
-"# resume-analyzer" 
+**Arjit Gupta** — [arjit.2716@gmail.com](mailto:arjit.2716@gmail.com)
