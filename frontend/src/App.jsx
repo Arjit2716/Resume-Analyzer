@@ -174,7 +174,7 @@ async function downloadPDFReport(data) {
   doc.setFont("courier","bold"); doc.setFontSize(7); doc.setTextColor("#4a5568");
   doc.text("RESUMEIX  ·  AI-POWERED RESUME INTELLIGENCE", M + 4, y); y += 10;
   doc.setFontSize(22); doc.setTextColor("#dde4f0"); doc.text("Analysis Report", M + 4, y); y += 9;
-  doc.setFontSize(9); doc.setTextColor("#00ff88"); doc.text("Built by Arjit Gupta", M + 4, y); y += 16;
+  doc.setFontSize(9); doc.setTextColor("#00ff88"); doc.text("Created and Analyzed by ResumeIX", M + 4, y); y += 16;
   doc.setDrawColor("#1a1a32"); doc.setLineWidth(0.4); doc.line(M + 4, y, W - M, y); y += 8;
   doc.setFont("courier","normal"); doc.setFontSize(8); doc.setTextColor("#4a5568");
   doc.text("Resume:", M + 4, y); doc.setTextColor("#dde4f0"); doc.text(data.name, M + 22, y); y += 5.5;
