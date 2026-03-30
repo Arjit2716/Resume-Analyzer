@@ -1053,8 +1053,19 @@ export default function App() {
       <GlobalCSS />
       <Navbar page={page} onNav={nav} />
       <div className="fade-in" key={page}>{pages[page]}</div>
-      <footer style={{ borderTop: `1px solid ${C.border}`, padding: "18px 24px", textAlign: "center", fontSize: 10, color: C.muted, letterSpacing: "1px" }}>
-        RESUMEIX · GROQ AI · AI-POWERED RESUME INTELLIGENCE
+      <footer style={{ borderTop: `1px solid ${C.border}`, padding: "24px 24px 28px", textAlign: "center" }}>
+        <div style={{ fontSize: 10, color: C.muted, letterSpacing: "1px", marginBottom: 10 }}>
+          RESUMEIX · GROQ AI · AI-POWERED RESUME INTELLIGENCE
+        </div>
+        <div style={{ fontSize: 11, color: C.dim, marginBottom: 8 }}>
+          Built by <span style={{ color: C.accent, fontWeight: 700 }}>Arjit Gupta</span>
+        </div>
+        <a href="https://github.com/Arjit2716/Resume-Analyzer" target="_blank" rel="noopener noreferrer" style={{ fontSize: 10, color: C.muted, textDecoration: "none", border: `1px solid ${C.border}`, padding: "5px 14px", borderRadius: 3, transition: "all 0.2s", display: "inline-block" }}
+          onMouseOver={(e) => { e.currentTarget.style.borderColor = C.accent; e.currentTarget.style.color = C.accent; }}
+          onMouseOut={(e) => { e.currentTarget.style.borderColor = C.border; e.currentTarget.style.color = C.muted; }}
+        >
+          ◆ View Source Code on GitHub
+        </a>
       </footer>
     </div>
   );
