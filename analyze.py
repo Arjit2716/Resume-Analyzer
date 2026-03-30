@@ -1,14 +1,11 @@
-import faiss, pickle
+import pickle
 from groq import Groq
-from sentence_transformers import SentenceTransformer
-import numpy as np
 import os
 from dotenv import load_dotenv
 
 # Load environment variables
 load_dotenv()
 
-model = SentenceTransformer("all-MiniLM-L6-v2")
 client_groq = Groq(api_key=os.getenv("GROQ_API_KEY"))
 def ask_claude(prompt):
     response = client_groq.chat.completions.create(
@@ -18,31 +15,25 @@ def ask_claude(prompt):
     )
     return response.choices[0].message.content
 
-def retrieve(query, index_path, store_path, k=3):
-    index = faiss.read_index(index_path)
-    with open(store_path, "rb") as f:
-        store = pickle.load(f)
-    q_embed = model.encode([query])
-    _, indices = index.search(np.array(q_embed), k)
-    return [store["chunks"][i] for i in indices[0]]
-
 # ── 1. JD Match ──────────────────────────────────────────────
 def match_jd():
     print("\n" + "="*50)
     print("📋 JOB DESCRIPTION MATCH ANALYSIS")
     print("="*50)
 
-    resume_chunks = retrieve("skills experience projects", "resume.index", "resume_store.pkl")
-    jd_chunks     = retrieve("required skills qualifications", "jd.index", "jd_store.pkl")
+    with open("resume_store.pkl", "rb") as f:
+        resume_text = pickle.load(f)["text"]
+    with open("jd_store.pkl", "rb") as f:
+        jd_text = pickle.load(f)["text"]
 
     prompt = f"""
 You are a resume expert. Compare the resume with the job description.
 
-Resume Excerpts:
-{chr(10).join(resume_chunks)}
+Resume:
+{resume_text}
 
-Job Description Excerpts:
-{chr(10).join(jd_chunks)}
+Job Description:
+{jd_text}
 
 Provide:
 1. Match Score (out of 100)
@@ -60,13 +51,14 @@ def suggest_improvements():
     print("💡 IMPROVEMENT SUGGESTIONS")
     print("="*50)
 
-    resume_chunks = retrieve("experience education projects achievements", "resume.index", "resume_store.pkl")
+    with open("resume_store.pkl", "rb") as f:
+        resume_text = pickle.load(f)["text"]
 
     prompt = f"""
 You are a professional resume coach.
 
-Resume Excerpts:
-{chr(10).join(resume_chunks)}
+Resume:
+{resume_text}
 
 Give specific improvement suggestions:
 1. Content improvements (action verbs, quantified achievements)
@@ -85,13 +77,14 @@ def extract_skills():
     print("🛠️  EXTRACTED SKILLS")
     print("="*50)
 
-    resume_chunks = retrieve("skills technologies tools programming", "resume.index", "resume_store.pkl")
+    with open("resume_store.pkl", "rb") as f:
+        resume_text = pickle.load(f)["text"]
 
     prompt = f"""
-Extract all skills from the resume excerpts below.
+Extract all skills from the resume below.
 
-Resume Excerpts:
-{chr(10).join(resume_chunks)}
+Resume:
+{resume_text}
 
 Categorize into:
 1. Technical Skills (languages, frameworks, tools)
@@ -111,13 +104,14 @@ def score_resume():
     print("⭐ RESUME SCORE")
     print("="*50)
 
-    resume_chunks = retrieve("experience education projects skills", "resume.index", "resume_store.pkl")
+    with open("resume_store.pkl", "rb") as f:
+        resume_text = pickle.load(f)["text"]
 
     prompt = f"""
 You are a strict resume evaluator. Score this resume.
 
-Resume Excerpts:
-{chr(10).join(resume_chunks)}
+Resume:
+{resume_text}
 
 Score out of 100 across these dimensions:
 1. Content Quality (0-25)

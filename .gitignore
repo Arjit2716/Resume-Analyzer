@@ -10,7 +10,6 @@ __pycache__/
 .Python
 build/
 develop-eggs/
-dist/
 downloads/
 eggs/
 .eggs/
@@ -47,7 +46,10 @@ uploads/
 *_store.pkl
 resume_report.txt
 data/
-*.pdf
+test_output.pdf
+
+# Frontend dev deps (NOT the build output)
+frontend/node_modules/
 
 # Logs
 *.log
